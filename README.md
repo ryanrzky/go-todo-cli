@@ -39,7 +39,7 @@ To install the Golang Todo CLI App, follow these steps:
     To enable the tools to be called from any location, move the binary file to `/usr/local/bin`.
 
     ```bash
-    sudo mv ./todo /usr/local/bin/`
+    sudo mv ./todo /usr/local/bin/
     ```
 
 ## Usage
@@ -58,7 +58,7 @@ Once installed, you can use the `todo` command (or whatever you named the execut
 
 * **Edit a todo by index:**
     ```bash
-    todo -edit "1: Call mom"
+    todo -edit "1:Call mom"
     ```
     (Here, `1` is the index of the todo you want to edit)
 
